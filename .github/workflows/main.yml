@@ -1,4 +1,5 @@
-name: 游戏组推送on:
+name: 游戏组推送
+on:
   push:
     branches: [master]
   pull_request:
