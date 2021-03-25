@@ -25,4 +25,4 @@ jobs:
         run: |
           pip install -r requirements.txt
           echo 开始推送
-          python3 main.py
+          python3 游戏组每日推送.py
