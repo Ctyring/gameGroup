@@ -9,7 +9,7 @@ def sentMsg(msg):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36',
     }
-    api_url = "https://qmsg.zendee.cn/send/af83ed8cfbb3e7a2ea86f286c86e5c86?msg= %s" % msg
+    api_url = "https://qmsg.zendee.cn/group/af83ed8cfbb3e7a2ea86f286c86e5c86?msg= %s" % msg
     return requests.post(api_url, headers=headers, timeout=None).content
 page = 1
 def seek(page):
